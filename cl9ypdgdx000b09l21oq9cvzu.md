@@ -31,6 +31,15 @@ git config --global user.name "input your GitHub username"
 ```
 git config --global user.email "input your GitHub email"
 ```
-The above command will help you set up your username and email for all git repositories .
+The above command will help you set up your username and email for all git repositories.
 
 You can check this link to see how to install Git for other operating systems: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+
+Check out:
+
+. [What is Git? What is GitHub?](https://emmakodes.com/what-is-git-what-is-github)
+
+. [How to use Git and GitHub for your personal Project](https://emmakodes.com/how-to-use-git-and-github-for-your-personal-project)
+
+. [How to Contribute to Open Source Project](https://emmakodes.com/how-to-contribute-to-open-source-project)
+
