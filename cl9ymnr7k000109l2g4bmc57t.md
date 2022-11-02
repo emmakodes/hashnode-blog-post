@@ -15,4 +15,10 @@ Let's say you are building a calculator using python and you have really gone fa
 
 So while Git saves changes locally on your computer, Github saves changes online. 
 
+Check out:
 
+. [How to Install Git on your Computer and Create an Account on GitHub](https://emmakodes.com/how-to-install-git-on-your-computer-and-create-an-account-on-github)
+
+. [How to use Git and GitHub for your personal Project](https://emmakodes.com/how-to-use-git-and-github-for-your-personal-project)
+
+. [How to Contribute to Open Source Project](https://emmakodes.com/how-to-contribute-to-open-source-project)
