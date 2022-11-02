@@ -135,4 +135,8 @@ git branch -M main
 ```
 git push -u origin main
 ```
-When you return to your repository on GitHub, you will find your code there.
+When you return to your repository on GitHub, you will find your code. You have just pushed your code to GitHub.
+
+Check out:
+
+[How to Contribute to Open Source Project](https://emmakodes.com/how-to-contribute-to-open-source-project)
