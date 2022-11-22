@@ -96,7 +96,7 @@ Now, what if you want to return back to when you had code to sum two numbers the
 
 Run the following command on your terminal to see the log history of commits you have done so far:
 ```
-git log --onefile
+git log --oneline
 ```
 You will see the following result on your terminal:
 - 1c5f696 (HEAD -> master) Add code to calculate diff,mul and div
