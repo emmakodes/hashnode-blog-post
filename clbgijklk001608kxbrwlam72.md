@@ -180,3 +180,6 @@ and go to the following link on your web browser to see your API in action:
 *   [http://127.0.0.1:8000/api/](http://127.0.0.1:8000/api/)
     
 *   [http://127.0.0.1:8000/api/1/](http://127.0.0.1:8000/api/1/)
+    
+
+Check out how to Create the same Todo API using mixins, Viewsets & Routers: [https://emmakodes.com/how-to-use-mixins-viewsets-routers-to-create-a-todo-api-in-django-rest-framework](https://emmakodes.com/how-to-use-mixins-viewsets-routers-to-create-a-todo-api-in-django-rest-framework)
