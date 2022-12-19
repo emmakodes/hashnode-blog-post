@@ -105,4 +105,8 @@ Start your development server and go to the following address on your web addres
 
 Using viewsets can be a really useful abstraction. It helps ensure that URL conventions will be consistent across your API, minimizes the amount of code you need to write, and allows you to concentrate on the interactions and representations your API provides rather than the specifics of the URL conf.
 
+# Conclusion
+
 The end. Thanks for reading.
+
+Check out how to build the same Todo API backend using Generic class-based views in Django Rest Framework: [https://emmakodes.com/build-a-todo-api-backend-using-generic-class-based-views-in-django-rest-framework](https://emmakodes.com/build-a-todo-api-backend-using-generic-class-based-views-in-django-rest-framework)
