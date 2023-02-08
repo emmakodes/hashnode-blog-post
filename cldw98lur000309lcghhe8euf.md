@@ -110,15 +110,15 @@ django-allauth is an integrated set of Django applications addressing authentica
 Add the following code to the urls.py file of your Django project to configure URLs for django-allauth.
 
 * ```python
-     # userauth/urls.py    
-    
-    from django.contrib import admin
-    from django.urls import path, include # new
-          
-    urlpatterns = [
-        path('admin/', admin.site.urls),
-        path('accounts/', include('allauth.urls')), # new
-    ]
+       # userauth/urls.py    
+      
+      from django.contrib import admin
+      from django.urls import path, include # new
+            
+      urlpatterns = [
+          path('admin/', admin.site.urls),
+          path('accounts/', include('allauth.urls')), # new
+      ]
     ```
     
 
@@ -165,17 +165,17 @@ We will override the default login and Signup pages to declare templates that lo
     Update the TEMPLATES config in settings.py file to tell Django to look for the templates directory in the base directory.
     
 * ```python
-    # userauth/settings.py   
-    
-    import os
+      # userauth/settings.py   
       
-    TEMPLATES = [
-          {
-              ...
-              'DIRS': [os.path.join(BASE_DIR, 'templates')], # new
-              ...
-          }
-      ]
+      import os
+        
+      TEMPLATES = [
+            {
+                ...
+                'DIRS': [os.path.join(BASE_DIR, 'templates')], # new
+                ...
+            }
+        ]
     ```
     
     Start the development server and check out the newly styled login and signup page:
@@ -276,7 +276,6 @@ Fill in your username, email, and desired password. You can log in to the admin 
     
     from django.views.generic import TemplateView
     
-    
     class HomePageView(TemplateView):
         template_name = 'home.html'
     ```
@@ -293,7 +292,7 @@ Fill in your username, email, and desired password. You can log in to the admin 
       <p>You are not logged in</p>
       <a href="{% url 'account_login' %}">Log In</a> |
       <a href="{% url 'account_signup' %}">Sign Up</a>
-    {% endif
+    {% endif %}
     ```
     
 
@@ -302,7 +301,7 @@ Fill in your username, email, and desired password. You can log in to the admin 
 Start the development server:
 
 * ```python
-          python manage.py runserver
+    python manage.py runserver
     ```
     
     You can test the whole system. Try to sign up, and log in from where you will see the homepage at https://127.0.0.1:8000/
