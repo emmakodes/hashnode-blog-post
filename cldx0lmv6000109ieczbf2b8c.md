@@ -1,4 +1,4 @@
-# How to build a user signup and login system using django-allauth, a custom user model and login with Email
+# How to build a user signup and login system using django-allauth and a custom user model. We will log in with Email instead of a username
 
 # Create a new Django Project and app
 
