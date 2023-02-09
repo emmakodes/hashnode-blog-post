@@ -22,7 +22,7 @@ Install Django
 pip install django
 ```
 
-Start a new Django project with any name. In my case, my project name is 'userauth'
+Start a new Django project with a descriptive name. In my case, my project name is 'userauth'
 
 ```python
 django-admin startproject userauth .
